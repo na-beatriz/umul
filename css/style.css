@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+    background-color: #1c1c1c;
+    color: white;  
+}
+
+.top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+}
+
+.sidebar{
+    display: flex;
+}
+
+.sidebar h2{
+    margin: 15px 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.sidebar-img{
+    flex: 1;
+}
+
+.sidebar-img img{
+    width: 45px;
+    margin-right: 10px;
+}
+
+.sidebar-img img a{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar li{
+    margin: 15px 10px;
+    font-size: 16px;
+}
+
+/*
+@media  screen and (max-width: 600px) {
+    .top-bar {
+        display: block;
+        position: relative;
+        padding: 15px 20px;
+    }
+    .navbar {
+        margin-top: 15px;
+        display: none;
+    }
+
+}*/
+
+.banner{
+    background-image: url("/img/banner.png");
+    background-position: 30% 45%;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
+    opacity: 30%;
+}
+
+.banner p{
+    font-size: 80px;
+    padding: 10px;
+    font-family: 'Nunito', sans-serif;
+    background: none;
+    color: white;
+}
+
+.container h2{
+    font-size: 30px;
+    padding: 24px;
+    margin: 5px 10px;
+    align-items: center;
+    display: inline-block;
+}
+
+.gallery{
+    margin: 5px 10px;
+    display: flex;
+    padding: 24px;
+    justify-content: space-evenly;
+}
+
+.gallery figure{
+    padding: 10px;
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+    padding: 0px 50px 0px 50px;
+}
+
+.gallery p{
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.container1{
+
+}
+
+.map{
+
+}
+
+.tiktok{
+
+}
+
+.form{
+
+}
+
+.rodap{
+    
+}
